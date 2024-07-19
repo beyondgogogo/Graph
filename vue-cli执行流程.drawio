@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-07-19T03:58:03.324Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.5211 SLBChan/33" version="24.7.1" etag="zFgbKvBJ6Nd4-J2xgN_7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-19T04:04:59.395Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 SLBrowser/9.0.3.5211 SLBChan/33" etag="rNr1E3gnZbgoy1c2z49n" version="24.7.1" type="github">
   <diagram name="第 1 页" id="MQXEtoJPN9DYxPNYN2u6">
-    <mxGraphModel>
+    <mxGraphModel dx="1290" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;main.js&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="170" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;App.vue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;demo2.vue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;demo1.vue&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-10" value="包含所绑定的容器，并将大哥组件放入到容器中" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="60" y="90" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-11" value="大哥组件，用来统领所有小弟组件，注册+使用" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnYYN3H81f6cj8LVTkbI-1" target="LnYYN3H81f6cj8LVTkbI-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="240" as="sourcePoint" />
+            <mxPoint x="310" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.44;exitY=1.037;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnYYN3H81f6cj8LVTkbI-4" target="LnYYN3H81f6cj8LVTkbI-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="340" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.567;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LnYYN3H81f6cj8LVTkbI-4" target="LnYYN3H81f6cj8LVTkbI-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LnYYN3H81f6cj8LVTkbI-15" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;也称之为入口文件&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="240" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
