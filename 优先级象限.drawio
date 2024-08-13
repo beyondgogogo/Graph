@@ -46,7 +46,7 @@
         <mxCell id="bkFay2kI30OozLdDtkdy-31" value="A:对应公司真题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bkFay2kI30OozLdDtkdy-32" value="B:mysql:日志问题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
+        <mxCell id="bkFay2kI30OozLdDtkdy-32" value="B:mysql:日志相关" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
           <mxGeometry y="52" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="bkFay2kI30OozLdDtkdy-33" value="C:java并发总结" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
