@@ -46,7 +46,7 @@
         <mxCell id="bkFay2kI30OozLdDtkdy-31" value="A:RocketMq文档挨着看完" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
           <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="bkFay2kI30OozLdDtkdy-32" value="&lt;font style=&quot;background-color: rgb(102, 255, 102);&quot; color=&quot;#212121&quot;&gt;B:mysql:日志相关：8.16终结调调&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
+        <mxCell id="bkFay2kI30OozLdDtkdy-32" value="D:Redis总结回顾" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
           <mxGeometry y="52" width="160" height="38" as="geometry" />
         </mxCell>
         <mxCell id="bkFay2kI30OozLdDtkdy-33" value="&lt;font color=&quot;#ff0000&quot;&gt;C:java并发总结&lt;/font&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="bkFay2kI30OozLdDtkdy-30" vertex="1">
