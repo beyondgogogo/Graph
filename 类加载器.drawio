@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.8121 SLBChan/33 SLBVPV/64-bit" version="24.7.7">
   <diagram name="第 1 页" id="iDECjVCamZeRMCaIRPLC">
-    <mxGraphModel dx="2117" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1902" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -54,6 +54,54 @@
         </mxCell>
         <mxCell id="KN7Uh_RmuSelA54IPUGQ-21" value="1.加载" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="210" y="258" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-23" value="BootstrapClassLoader&lt;div&gt;(启动类加载器)&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="400" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-24" value="ExtensionClassLoader&lt;div&gt;(扩展类加载器)&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="520" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-25" value="ApplicationClassLoader&lt;div&gt;(应用类加载器)&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="640" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-27" value="CustomClassLoader&lt;div&gt;(自定义类加载器)&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="770" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-28" value="CustomClassLoader&lt;div&gt;(自定义类加载器)&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="254" y="770" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-30" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=1;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KN7Uh_RmuSelA54IPUGQ-27" target="KN7Uh_RmuSelA54IPUGQ-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="810" as="sourcePoint" />
+            <mxPoint x="200" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-31" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=1;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.558;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KN7Uh_RmuSelA54IPUGQ-28" target="KN7Uh_RmuSelA54IPUGQ-25">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="820" as="sourcePoint" />
+            <mxPoint x="200" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KN7Uh_RmuSelA54IPUGQ-25" target="KN7Uh_RmuSelA54IPUGQ-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="sourcePoint" />
+            <mxPoint x="360" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="KN7Uh_RmuSelA54IPUGQ-24" target="KN7Uh_RmuSelA54IPUGQ-23">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="520" as="sourcePoint" />
+            <mxPoint x="220" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-34" value="负责加载java的核心类库&lt;br&gt;java.util&amp;nbsp; &amp;nbsp;java.lang" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="410" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-35" value="用户自定义的类和第三方库通常都由它加载" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="304" y="655" width="194" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KN7Uh_RmuSelA54IPUGQ-36" value="如果想要打破双亲委派机制，可通过重写classloader中的loadclass来实现" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="340" y="520" width="120" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
