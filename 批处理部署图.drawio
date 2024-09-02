@@ -125,7 +125,7 @@
         <mxCell id="KDNJ6NSY3MVF0tdbOiCU-38" value="组件数据库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="350" y="1038" width="90" height="62" as="geometry" />
         </mxCell>
-        <mxCell id="KDNJ6NSY3MVF0tdbOiCU-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;上游系统/信贷各组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KDNJ6NSY3MVF0tdbOiCU-39" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;下游系统/信贷各组件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="990" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="KDNJ6NSY3MVF0tdbOiCU-40" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;数据仓库&lt;/font&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
