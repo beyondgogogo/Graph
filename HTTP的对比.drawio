@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.8121 SLBChan/33 SLBVPV/64-bit" version="24.7.12">
   <diagram name="第 1 页" id="auNo-8XsiYGsyL6i_Q60">
-    <mxGraphModel dx="1949" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2440" dy="676" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="xhjAY5C-jE9lhC1tB4jm-16" value="1.&lt;span style=&quot;background-color: rgb(51, 255, 51);&quot;&gt;短连接变为长连接&lt;/span&gt;，减去了不必要的连接断开&lt;br&gt;2.&lt;span style=&quot;background-color: rgb(51, 255, 51);&quot;&gt;使用管道传输&lt;/span&gt;，请求不用等待，但响应依然需要一个一个等待(&lt;span style=&quot;background-color: rgb(255, 51, 51);&quot;&gt;响应队头阻塞)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="20" y="480" width="210" height="140" as="geometry" />
+          <mxGeometry x="-20" y="460" width="210" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
