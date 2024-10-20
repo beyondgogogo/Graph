@@ -1,9 +1,63 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.8121 SLBChan/33 SLBVPV/64-bit" version="24.8.0">
   <diagram name="第 1 页" id="Bkkx-8QcvCTCq1Urm4mG">
-    <mxGraphModel>
+    <mxGraphModel dx="2117" dy="541" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="20" width="300" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-1" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-2" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="330" y="170" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-6" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="50" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-7" value="WordPress" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="40" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" target="Qh-9CfUjlNziNsJxhMSX-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="100" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-11" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qh-9CfUjlNziNsJxhMSX-1" target="Qh-9CfUjlNziNsJxhMSX-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-13" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;IP:8080&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-10;" vertex="1" parent="1">
+          <mxGeometry x="130" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="430" width="440" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-15" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="520" width="50" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-16" value="" style="image;html=1;image=img/lib/clip_art/computers/Server_128x128.png" vertex="1" parent="1">
+          <mxGeometry x="330" y="580" width="240" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-17" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="460" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-18" value="WordPress" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="450" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" target="Qh-9CfUjlNziNsJxhMSX-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="510" as="sourcePoint" />
+            <mxPoint x="440" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qh-9CfUjlNziNsJxhMSX-22" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="480" width="60" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
