@@ -188,10 +188,10 @@
         <mxCell id="rCU9mX7-NfS8TRDJsFRv-74" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rCU9mX7-NfS8TRDJsFRv-72" target="rCU9mX7-NfS8TRDJsFRv-73" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rCU9mX7-NfS8TRDJsFRv-72" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.自定义权重&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="rCU9mX7-NfS8TRDJsFRv-72" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.基础匹配&lt;br&gt;Must Have&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="70" y="1460" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="rCU9mX7-NfS8TRDJsFRv-73" value="这个还是好设置的" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="rCU9mX7-NfS8TRDJsFRv-73" value="同理还是权重计算分数" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="1450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rCU9mX7-NfS8TRDJsFRv-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="rCU9mX7-NfS8TRDJsFRv-75" target="rCU9mX7-NfS8TRDJsFRv-78" edge="1">
