@@ -298,23 +298,11 @@
         <mxCell id="KNSwncKqrDuZkiPNyzF8-31" value="&lt;b&gt;核心技能&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1421" y="705" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="KNSwncKqrDuZkiPNyzF8-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-35" target="KNSwncKqrDuZkiPNyzF8-36">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="KNSwncKqrDuZkiPNyzF8-35" value="标签权重配置表（自定义）" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="KNSwncKqrDuZkiPNyzF8-35" value="基础匹配(统计JD和简历标签重叠的数量来进行排序)" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1366" y="800" width="170" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="KNSwncKqrDuZkiPNyzF8-36" value="计算标签权重" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1391" y="880" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KNSwncKqrDuZkiPNyzF8-37" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn2.iconfinder.com/data/icons/boxicons-regular-vol-3/24/bx-sort-down-128.png" vertex="1" parent="1">
           <mxGeometry x="1611" y="980" width="128" height="128" as="geometry" />
-        </mxCell>
-        <mxCell id="KNSwncKqrDuZkiPNyzF8-38" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-36" target="KNSwncKqrDuZkiPNyzF8-37">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1621" y="1010" as="sourcePoint" />
-            <mxPoint x="1671" y="960" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="KNSwncKqrDuZkiPNyzF8-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-2" target="KNSwncKqrDuZkiPNyzF8-37">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -326,12 +314,27 @@
           <mxGeometry x="1500" y="612.5" width="170" height="25" as="geometry" />
         </mxCell>
         <mxCell id="KNSwncKqrDuZkiPNyzF8-42" value="SQL查询作为备选方案" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="665" width="166" height="25" as="geometry" />
+          <mxGeometry x="1504" y="665" width="166" height="25" as="geometry" />
         </mxCell>
         <mxCell id="KNSwncKqrDuZkiPNyzF8-43" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-29">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1670" y="680" as="sourcePoint" />
             <mxPoint x="1700" y="655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KNSwncKqrDuZkiPNyzF8-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-35" target="KNSwncKqrDuZkiPNyzF8-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1540" y="1000" as="sourcePoint" />
+            <mxPoint x="1590" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KNSwncKqrDuZkiPNyzF8-46" value="保留权重分配的功能，更加易用。领英招聘系统有一个功能是：HR在发布职位的时，可勾选Must Have" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="940" width="189" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KNSwncKqrDuZkiPNyzF8-47" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KNSwncKqrDuZkiPNyzF8-46" target="KNSwncKqrDuZkiPNyzF8-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1660" y="980" as="sourcePoint" />
+            <mxPoint x="1710" y="930" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
