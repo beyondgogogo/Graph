@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.5.12181 SLBChan/33 SLBVPV/64-bit" version="26.0.16">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.6.2081 SLBChan/33 SLBVPV/64-bit" version="26.1.1">
   <diagram name="第 1 页" id="0lbOjBjULqhaCA4rJ2GL">
     <mxGraphModel dx="1290" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-2" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="1280" width="850" height="810" as="geometry" />
+        </mxCell>
         <mxCell id="rCU9mX7-NfS8TRDJsFRv-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="1240" width="910" height="340" as="geometry" />
         </mxCell>
@@ -336,6 +339,74 @@
             <mxPoint x="1660" y="980" as="sourcePoint" />
             <mxPoint x="1710" y="930" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-1" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;权重计算&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1272" y="1230" width="149" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;目标：&lt;br&gt;原评分系统仅依赖标签数量，无法区分重要性差异。例如，“5年Java经验”可能比“团队协作”更重要。通过权重分配，能更精准反映岗位需求，提升筛选效率。&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1271" y="1300" width="639" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-4" value="" style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;sortEdges=1;resizable=0;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1281" y="1440" width="469" height="218" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-5" value="权重计算" style="whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-4">
+          <mxGeometry x="40" y="92" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-6" value="静态权重" style="whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-4">
+          <mxGeometry x="190" y="52" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="q82wBXD-_0V-6gVfcb_9-4" source="q82wBXD-_0V-6gVfcb_9-5" target="q82wBXD-_0V-6gVfcb_9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-8" value="动态权重" style="whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-4">
+          <mxGeometry x="190" y="132" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;" edge="1" parent="q82wBXD-_0V-6gVfcb_9-4" source="q82wBXD-_0V-6gVfcb_9-5" target="q82wBXD-_0V-6gVfcb_9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-16" value="特点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-4">
+          <mxGeometry x="299" y="20" width="150" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-17" value="简洁[给预设标签分配权重]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-16">
+          <mxGeometry y="26" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-18" value="效果[不同岗位对同一标签]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-16">
+          <mxGeometry y="52" width="150" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-21" value="特点" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-4">
+          <mxGeometry x="299" y="120" width="140" height="78" as="geometry">
+            <mxRectangle x="299" y="120" width="60" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-22" value="效果优于静态方法" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-21">
+          <mxGeometry y="26" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-23" value="复杂度高些" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="q82wBXD-_0V-6gVfcb_9-21">
+          <mxGeometry y="52" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-25" value="" style="shape=singleArrow;direction=south;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1531" y="1630" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q82wBXD-_0V-6gVfcb_9-39" target="q82wBXD-_0V-6gVfcb_9-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-39" value="&lt;b&gt;人工标识&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q82wBXD-_0V-6gVfcb_9-40" target="q82wBXD-_0V-6gVfcb_9-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-40" value="&lt;b&gt;大模型&lt;/b&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="1740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-42" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.add;" vertex="1" parent="1">
+          <mxGeometry x="1546" y="1754" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-43" value="前端再输入岗位JD时，提示用户可进行关键点的标识" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1411" y="1880" width="119" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="q82wBXD-_0V-6gVfcb_9-45" value="模型根据用户的标识,进行权重的分配。如果没有，则自行研判" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1591" y="1880" width="119" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
