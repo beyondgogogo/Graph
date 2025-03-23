@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2800" y="1950" width="540" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="q82wBXD-_0V-6gVfcb_9-2" value="" style="rounded=1;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" parent="1" vertex="1">
           <mxGeometry x="1200" y="1280" width="850" height="810" as="geometry" />
         </mxCell>
@@ -466,6 +469,21 @@
         </mxCell>
         <mxCell id="EZx-FQCEtJfJWltrhfgu-30" value="&lt;h2&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;最终权重=α×TF-IDF+(1−α)×模型权重&lt;/font&gt;&lt;/h2&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1407.5" y="2190" width="435" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-4" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;需求：计算提取出的标签在所在JD中的权重如何&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="1970" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-7" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;词频：所求标签的数目/JD提取所有标签的数目&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2810" y="2020" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OE_g9Z0wZBL0O1w20PGE-8" target="OE_g9Z0wZBL0O1w20PGE-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-8" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;逆文档频率：所求标签在其他JD中出现的次数&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2830" y="2070" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OE_g9Z0wZBL0O1w20PGE-12" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;在tag表中添加一个count,计算频率时查出来就行（但可能存在速度上的问题蛤）&lt;/b&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="2180" width="205" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
