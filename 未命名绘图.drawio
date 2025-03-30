@@ -11,7 +11,7 @@
           <mxGeometry x="302" y="455.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="5" value="标签管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="542" y="455.5" width="200" height="60" as="geometry" />
+          <mxGeometry x="620" y="455.5" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="6" value="岗位管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="872" y="455.5" width="200" height="60" as="geometry" />
@@ -47,13 +47,13 @@
           <mxGeometry x="200" y="620" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-58" value="简历存储&#xa;与操作" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="340" y="620" width="70" height="150" as="geometry" />
+          <mxGeometry x="290" y="620" width="70" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-59" value="简历分析" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="470" y="620" width="60" height="150" as="geometry" />
+          <mxGeometry x="420" y="620" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-60" value="动态跟踪" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="600" y="620" width="70" height="150" as="geometry" />
+          <mxGeometry x="535" y="620" width="70" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-62" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.456;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="4" target="2qudW0k3BddcM0rPsx_g-57">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
@@ -80,33 +80,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-66" value="上传简历" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="160" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="120" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-71" value="简历解析" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="242" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="200" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-74" value="增删改查" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="340" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="295" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-75" value="下载简历" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="420" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="372" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-76" value="简历分析" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="530" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="460" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-77" value="简历对比" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="605" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="530" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-78" value="相似候选&#xa;人推荐" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="682" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="602" y="830" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-79" value="简历动态" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="760" y="840" width="60" height="150" as="geometry" />
+          <mxGeometry x="682" y="830" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="2qudW0k3BddcM0rPsx_g-80" value="下载简历" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="2qudW0k3BddcM0rPsx_g-80" value="标签维护" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="720" y="620" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="2qudW0k3BddcM0rPsx_g-81" value="下载简历" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="2qudW0k3BddcM0rPsx_g-81" value="标签识别" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="840" y="610" width="60" height="150" as="geometry" />
         </mxCell>
       </root>
