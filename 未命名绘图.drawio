@@ -1,19 +1,19 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.6.2081 SLBChan/33 SLBVPV/64-bit" version="26.2.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36 SLBrowser/9.0.6.2081 SLBChan/33 SLBVPV/64-bit" version="26.2.1">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="3262.5" dy="642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3" value="人才画像" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="3" value="人才画像" style="rounded=1;fillColor=#19B2F5;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="662" y="345.5" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="简历管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="4" value="简历管理" style="rounded=1;fillColor=#17A3DE;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="295" y="490" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="标签管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="870" y="490" width="200" height="60" as="geometry" />
+        <mxCell id="5" value="标签管理" style="rounded=1;fillColor=#17A3DE;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="882" y="490" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="岗位管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="6" value="岗位管理" style="rounded=1;fillColor=#17A3DE;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1150" y="490" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="30" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;" parent="1" source="3" target="5" edge="1">
@@ -79,41 +79,41 @@
         <mxCell id="2qudW0k3BddcM0rPsx_g-77" value="简历对比" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="170" y="800" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="2qudW0k3BddcM0rPsx_g-78" value="相似候选&#xa;人推荐" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="2qudW0k3BddcM0rPsx_g-78" value="相似简历&#xa;查找" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="240" y="800" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-79" value="简历最&#xa;新动态" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="650" y="800" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-80" value="标签维护" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="860" y="600" width="60" height="150" as="geometry" />
+          <mxGeometry x="900" y="600" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="2qudW0k3BddcM0rPsx_g-81" value="标签识别" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1010" y="600" width="60" height="150" as="geometry" />
+          <mxGeometry x="1030" y="600" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-32" value="标签&#xa;新增、修改&#xa;查询、删除" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-32" value="标签修改&#xa;查询、删除" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="810" y="800" width="80" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-33" value="标签分类&#xa;管理" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="900" y="800" width="60" height="150" as="geometry" />
-        </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-34" value="自定义&#xa;标签" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="980" y="800" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-35" value="打标签&#xa;字段" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-34" value="自定义&#xa;标签" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="900" y="800" width="60" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-35" value="标签标注" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="1060" y="800" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-36" value="岗位维护" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1197" y="600" width="60" height="150" as="geometry" />
+          <mxGeometry x="1160" y="600" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-37" value="候选人&#xa;推荐" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1307" y="600" width="60" height="150" as="geometry" />
+          <mxGeometry x="1280" y="600" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-38" value="岗位信息&#xa;展示获取" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1197" y="810" width="60" height="150" as="geometry" />
+          <mxGeometry x="1160" y="800" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-39" value="更新岗位&#xa;候选人" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="1269" y="810" width="60" height="150" as="geometry" />
+          <mxGeometry x="1240" y="800" width="60" height="150" as="geometry" />
         </mxCell>
         <mxCell id="rfwXSd8R2K4kUe_TDnKy-41" value="简历收藏" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="730" y="800" width="60" height="150" as="geometry" />
@@ -148,13 +148,13 @@
             <mxPoint x="-53" y="645" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" target="2qudW0k3BddcM0rPsx_g-77" edge="1" source="2qudW0k3BddcM0rPsx_g-59">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-50" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-59" target="2qudW0k3BddcM0rPsx_g-77" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="310" y="750" as="sourcePoint" />
             <mxPoint x="-43" y="655" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="2qudW0k3BddcM0rPsx_g-78" edge="1" source="2qudW0k3BddcM0rPsx_g-59">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-51" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-59" target="2qudW0k3BddcM0rPsx_g-78" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="332" y="751" as="sourcePoint" />
             <mxPoint x="-33" y="665" as="targetPoint" />
@@ -191,13 +191,13 @@
             <mxPoint x="267" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-81" target="rfwXSd8R2K4kUe_TDnKy-34" edge="1">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-57" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-80" target="rfwXSd8R2K4kUe_TDnKy-34" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
-            <mxPoint x="280" y="660" as="sourcePoint" />
+            <mxPoint x="890" y="750" as="sourcePoint" />
             <mxPoint x="277" y="725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-81" target="rfwXSd8R2K4kUe_TDnKy-35" edge="1">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-81" target="rfwXSd8R2K4kUe_TDnKy-35" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="290" y="670" as="sourcePoint" />
             <mxPoint x="287" y="735" as="targetPoint" />
@@ -215,7 +215,7 @@
             <mxPoint x="334" y="755" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rfwXSd8R2K4kUe_TDnKy-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="rfwXSd8R2K4kUe_TDnKy-37" edge="1">
+        <mxCell id="rfwXSd8R2K4kUe_TDnKy-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="rfwXSd8R2K4kUe_TDnKy-37" edge="1" target="14uKI-w8L33Bqb326WSC-36">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="347" y="700" as="sourcePoint" />
             <mxPoint x="1377" y="810" as="targetPoint" />
@@ -239,29 +239,29 @@
             <mxPoint x="247" y="805" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-32" value="简历筛选&#xa;条件/标签" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="14uKI-w8L33Bqb326WSC-32" value="简历筛选&#xa;条件/标签" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="410" y="800" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-33" value="简历删除&#xa;及关联信息" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="14uKI-w8L33Bqb326WSC-33" value="简历删除&#xa;及关联信息" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="480" y="800" width="70" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qudW0k3BddcM0rPsx_g-58" target="14uKI-w8L33Bqb326WSC-33">
+        <mxCell id="14uKI-w8L33Bqb326WSC-34" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-58" target="14uKI-w8L33Bqb326WSC-33" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="520" y="750" as="sourcePoint" />
             <mxPoint x="576" y="742" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-35" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="2qudW0k3BddcM0rPsx_g-58" target="14uKI-w8L33Bqb326WSC-32">
+        <mxCell id="14uKI-w8L33Bqb326WSC-35" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;strokeWidth=4;endArrow=block;endFill=1;fontStyle=1;strokeColor=#23445D;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="2qudW0k3BddcM0rPsx_g-58" target="14uKI-w8L33Bqb326WSC-32" edge="1">
           <mxGeometry x="62" y="195.5" width="100" height="100" as="geometry">
             <mxPoint x="520" y="760" as="sourcePoint" />
             <mxPoint x="910" y="620" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-36" value="候选人&#xa;对比" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="810" width="60" height="150" as="geometry" />
+        <mxCell id="14uKI-w8L33Bqb326WSC-36" value="候选人&#xa;对比" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="800" width="60" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="14uKI-w8L33Bqb326WSC-37" value="人才地图？" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1470" y="820" width="70" height="150" as="geometry" />
+        <mxCell id="14uKI-w8L33Bqb326WSC-37" value="人才地图？" style="rounded=1;fillColor=#10739E;strokeColor=none;shadow=1;gradientColor=none;fontStyle=1;fontColor=#FFFFFF;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="800" width="70" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
