@@ -2631,7 +2631,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="BVsvBxL37eMtepJeFJLJ" name="第 4 页">
-    <mxGraphModel dx="1283" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1974" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2645,16 +2645,16 @@
           <mxGeometry x="710" y="160" width="190" height="140" as="geometry" />
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResumeServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-minIOUtil:MinIOUtil&lt;br&gt;-tagService:TagService&lt;br&gt;-resumeMapper:ResumeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+collectResume(): String&lt;br&gt;+getTalentMap():Mappings&lt;br&gt;+getLatesResumes:ResumeAndTags&lt;br&gt;+deleteResumeById:String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="670" y="370" width="210" height="150" as="geometry" />
+          <mxGeometry x="700" y="370" width="210" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mapper&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ResumeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+insertResume():int&lt;br&gt;+selectCollectedResume():List&amp;lt;Integer&amp;gt;&lt;br&gt;+deleteResumeById():void&lt;br&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="440" width="230" height="125" as="geometry" />
+          <mxGeometry x="1230" y="652.5" width="230" height="125" as="geometry" />
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MinIoUtil&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-minioClient:MinioClient&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+uploadFile():void&lt;br&gt;+uploadFileViaStream:void&lt;br&gt;+downloadFile:void&lt;br&gt;+downloadFileAsStream:inputStream&lt;br&gt;+deleteFile:void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="780" y="650" width="210" height="130" as="geometry" />
+          <mxGeometry x="730" y="650" width="210" height="130" as="geometry" />
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Service&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TagService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+getTagsByResumeId:Map&amp;lt;String,Integer&amp;gt;&lt;br&gt;+getAllTags():List&amp;lt;Category&amp;gt;&lt;br&gt;+createTag():Integer&lt;br&gt;+deleteTagById():boolean&lt;br&gt;+updateTag():boolean&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="640" width="240" height="150" as="geometry" />
+          <mxGeometry x="970" y="640" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BasicInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-gender:String&lt;br&gt;-birtjdate:LocalDate&lt;br&gt;-phone:String&lt;br&gt;-email:String&lt;br&gt;-school:String&lt;br&gt;-nation:String&lt;br&gt;-skills:String&lt;br&gt;-isOuter:String&lt;br&gt;-status:Integer&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="380" y="780" width="120" height="200" as="geometry" />
@@ -2714,15 +2714,15 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hiHLU6m-KV5utV_ZQffl-20" value="" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=0.995;exitY=0.591;exitDx=0;exitDy=0;startFill=0;exitPerimeter=0;entryX=0.006;entryY=0.438;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hiHLU6m-KV5utV_ZQffl-4" target="hiHLU6m-KV5utV_ZQffl-5">
+        <mxCell id="hiHLU6m-KV5utV_ZQffl-20" value="" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="hiHLU6m-KV5utV_ZQffl-4" target="hiHLU6m-KV5utV_ZQffl-5">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="780" y="480" as="sourcePoint" />
-            <mxPoint x="1010" y="430" as="targetPoint" />
+            <mxPoint x="911" y="596" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-21" value="resumeMapper" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="hiHLU6m-KV5utV_ZQffl-20">
           <mxGeometry x="0.7451" y="1" relative="1" as="geometry">
-            <mxPoint x="-36" y="-5" as="offset" />
+            <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="hiHLU6m-KV5utV_ZQffl-22" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="hiHLU6m-KV5utV_ZQffl-4" target="hiHLU6m-KV5utV_ZQffl-9">
