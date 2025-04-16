@@ -2526,7 +2526,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Hzx4AewZlRN1APubPhVr" name="第 3 页">
-    <mxGraphModel dx="1765" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1283" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2627,38 +2627,130 @@
             <mxPoint x="136" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BaseController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BaseController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="840" y="960" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResumeController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="840" y="1130" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResumeController&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-minIOUtil:MinIOUtil&lt;br&gt;-resumeService:ResumeService&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+collectResume(): String&lt;br&gt;+getTalentMap():Mappings&lt;br&gt;+getLatesResumes:ResumeAndTags&lt;br&gt;+deleteResumeById:String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="840" y="1130" width="220" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ResumeService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAllJobs(): TableDataInfo&lt;br&gt;+compareCandidates():Match&lt;br&gt;+initCandidates():String&lt;br&gt;+updateCandidateViaAI():&lt;br&gt;+updateAllCandidates():&lt;br&gt;+updateCandidate():&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1115" y="1080" width="190" height="160" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ResumeService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+collectResume(): String&lt;br&gt;+getTalentMap():Mappings&lt;br&gt;+getLatesResumes:ResumeAndTags&lt;br&gt;+deleteResumeById:String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1115" y="1080" width="190" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResumeServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1110" y="1290" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-4" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResumeServiceImpl&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-minIOUtil:MinIOUtil&lt;br&gt;-tagService:TagService&lt;br&gt;-resumeMapper:ResumeMapper&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+collectResume(): String&lt;br&gt;+getTalentMap():Mappings&lt;br&gt;+getLatesResumes:ResumeAndTags&lt;br&gt;+deleteResumeById:String&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1110" y="1290" width="210" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mapper&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ResumeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAllJobs(): TableDataInfo&lt;br&gt;+compareCandidates():Match&lt;br&gt;+initCandidates():String&lt;br&gt;+updateCandidateViaAI():&lt;br&gt;+updateAllCandidates():&lt;br&gt;+updateCandidate():&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1450" width="190" height="160" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Mapper&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;ResumeMapper&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getAllJobs(): TableDataInfo&lt;br&gt;+compareCandidates():Match&lt;br&gt;+initCandidates():String&lt;br&gt;+updateCandidateViaAI():&lt;br&gt;+updateAllCandidates():&lt;br&gt;+updateCandidate():&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1650" y="1535" width="190" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MinIoUtil&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="1500" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;MinIoUtil&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1220" y="1570" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Service&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TagService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ matchResume(): ResumeMatch&lt;br&gt;+ updateCandidate():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ResumeMatch&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1430" y="1485" width="200" height="120" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Service&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;TagService&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ matchResume(): ResumeMatch&lt;br&gt;+ updateCandidate():&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ResumeMatch&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="1540" width="200" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Resume&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="800" y="1500" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-9" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;BasicInfo&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-gender:String&lt;br&gt;-birtjdate:LocalDate&lt;br&gt;-phone:String&lt;br&gt;-email:String&lt;br&gt;-school:String&lt;br&gt;-nation:String&lt;br&gt;-skills:String&lt;br&gt;-isOuter:String&lt;br&gt;-status:Integer&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1570" width="120" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SpiltResumeResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="1020" y="1500" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-10" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;SpiltResumeResult&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-basicInfo:BasicInfo&lt;br&gt;-educationBackgrounds:EducationBackground&lt;br&gt;-workExperience:WorkExperience&lt;br&gt;-relatedSkills:RelatedSkill&lt;br&gt;-radarChartData:RadarChartData&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1600" width="250" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mappings&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="710" y="1300" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-11" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Mappings&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="750" y="1330" width="180" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResultCollect&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1420" width="180" height="90" as="geometry" />
+        <mxCell id="7Fwmk_MbDO2Fkxq15XBS-12" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ResultCollect&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ getDataTable(): TableDataInfo&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="660" y="1450" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-1" value="继承" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-2" target="7Fwmk_MbDO2Fkxq15XBS-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1250" y="1250" as="sourcePoint" />
+            <mxPoint x="1410" y="1250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-2" value="resumeService" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=1.008;exitY=0.424;exitDx=0;exitDy=0;exitPerimeter=0;startFill=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-2" target="7Fwmk_MbDO2Fkxq15XBS-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1250" y="1050" as="sourcePoint" />
+            <mxPoint x="1410" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-3" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1130" y="1250" as="sourcePoint" />
+            <mxPoint x="1290" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-4" value="实现" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0C-ki9u4P086vCsVeoG-3">
+          <mxGeometry x="-0.1877" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-5" value="" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.56;entryY=-0.042;entryDx=0;entryDy=0;entryPerimeter=0;startFill=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1250" y="1380" as="sourcePoint" />
+            <mxPoint x="1410" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-8" value="MinIOUtil" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0C-ki9u4P086vCsVeoG-5">
+          <mxGeometry x="0.7044" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-6" value="" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-8">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="1390" as="sourcePoint" />
+            <mxPoint x="1341" y="1506" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-9" value="tagService" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0C-ki9u4P086vCsVeoG-6">
+          <mxGeometry x="0.7464" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-7" value="" style="endArrow=none;endSize=12;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startFill=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="1400" as="sourcePoint" />
+            <mxPoint x="1351" y="1516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-10" value="resumeMapper" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0C-ki9u4P086vCsVeoG-7">
+          <mxGeometry x="0.7451" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-11" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-10">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="1350" as="sourcePoint" />
+            <mxPoint x="1370" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-12" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.457;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-9">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1210" y="1390" as="sourcePoint" />
+            <mxPoint x="1120" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-13" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.441;exitY=0.984;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-12">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1220" y="1400" as="sourcePoint" />
+            <mxPoint x="1130" y="1520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-14" value="" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-4" target="7Fwmk_MbDO2Fkxq15XBS-11">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1230" y="1410" as="sourcePoint" />
+            <mxPoint x="1140" y="1530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-15" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7Fwmk_MbDO2Fkxq15XBS-9" target="7Fwmk_MbDO2Fkxq15XBS-10">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="990" y="1630" as="sourcePoint" />
+            <mxPoint x="1120" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0C-ki9u4P086vCsVeoG-16" value="聚合" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="i0C-ki9u4P086vCsVeoG-15">
+          <mxGeometry x="0.0062" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
